@@ -1,0 +1,12 @@
+{
+    "autoclose": true,
+    "autoindent": true,
+    "colorscheme": "simple",
+    "eofnewline": true,
+    "ruler": true,
+    "saveundo": true,
+    "scrollbar": false,
+    "softwrap": false,
+    "tabsize": 4,
+    "tabstospaces": true
+}
