@@ -1,14 +1,25 @@
 # debian-i3-dotfiles
 
-Configuración minimalista y ligera para entorno de desarrollo diario en **Debian 13 (Trixie)** con **i3wm**. Diseñado para flujos de trabajo centrados en teclado, bajo consumo de recursos y herramientas TUI.
+Configuración estrictamente minimalista para **Debian 13 (Trixie)** con **i3wm**: sin barra de estado, sin bordes (`pixel 0`), sin gaps y orientada 100% a atajos de teclado y herramientas TUI.
 
 ## Stack del entorno
 - **OS:** Debian GNU/Linux 13 (Trixie)
-- **Window Manager:** i3wm + Polybar / i3blocks
-- **Terminal:** Alacritty + Zellij
-- **Shell:** Zsh
-- **Editor & Git:** micro + lazygit
-- **Launcher:** Rofi / dmenu
+- **Window Manager:** i3wm (barless, zero-gaps, borderless)
+- **Compositor & Wallpaper:** Picom + feh
+- **Terminal & Shell:** Alacritty + Zsh + Zellij
+- **Editores & Git:** micro / fresh + lazygit
+- **Launcher & Utilidades:** Rofi, PCManFM, maim + xclip, i3lock
+
+## Atajos principales (`Mod4` / Super)
+| Atajo | Acción |
+| :--- | :--- |
+| `Super + Enter` | Abrir Alacritty |
+| `Super + d` | Lanzador de aplicaciones (`rofi`) |
+| `Super + f` | Gestor de archivos (`pcmanfm`) |
+| `Super + Shift + s` | Captura de área al portapapeles (`maim` + `xclip`) |
+| `Super + Shift + x` | Bloquear pantalla (`i3lock`) |
+| `Super + 1..5` | Cambiar entre espacios de trabajo |
+| `Super + Shift + q` | Cerrar ventana activa |
 
 ## Instalación rápida
 
